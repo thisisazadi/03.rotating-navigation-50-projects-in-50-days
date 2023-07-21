@@ -40,6 +40,10 @@ body {
     transition: transform 0.5s linear;
 }
 
+.container.show-nav .circle {
+    transform: rotate(-70);
+}
+
 .circle button {
     cursor: pointer;
     position: absolute;
